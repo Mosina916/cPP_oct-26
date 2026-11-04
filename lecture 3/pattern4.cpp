@@ -11,12 +11,12 @@ int main (){
 
 	// space 
 	for(int sp=1;sp<=tr-rowno;sp=sp+1){
-		cout<<" ";
+		cout<<"  ";
 	}
 
 	// stars
 	for(int st=1;st<=rowno;st=st+1){
-		cout<<'*';
+		cout<<"* ";
 	}
 
 	cout<<endl;
